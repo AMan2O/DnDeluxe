@@ -1,0 +1,76 @@
+classes:
+  - name: Rogue
+    description: A slippery, cunning, and stealthy figure that uses sneak attacks to decimate unaware opponents.
+    hit_die: 8
+    tools:
+      - Thieve's Tools
+    weapons:
+      - Simple
+      - Hand crossbows
+      - Longswords
+      - Rapiers
+      - Shortswords
+    armor:
+      - Light armor
+    saving_throws:
+      - Dexterity
+      - Intelligence
+    skill_amount: 4
+    skill_list:
+      - Acrobatics        (Dex)
+      - Athletics         (Str)
+      - Deception         (Cha)
+      - Insight           (Wis)
+      - Intimidation      (Cha)
+      - Investigation     (Int)
+      - Perception        (Wis)
+      - Performance       (Cha)
+      - Persuasion        (Cha)
+      - Sleight of Hand   (Dex)
+      - Stealth           (Dex)
+    equipment_list_a:
+      - a rapier
+      - a shortbow and a 20 arrow quiver
+      - a burglar's pack
+      - Leather armor, two daggers, and thieves' tools
+    equipment_list_b:
+      - a shortsword
+      - a shortsword
+      - an explorer's pack
+      - Leather armor, two daggers, and thieves' tools
+    starting_techniques: Expertise, Sneak Attack, Thieve's Cant
+  - name: Fighter
+    description: A powerful front line martial class, whether it be with swords, maces, even bows.
+    hit_die: 10
+    tools:
+      - none
+    weapons:
+      - Martial
+      - Simple
+    armor:
+      - All armor
+      - Shields
+    saving_throws:
+      - Strength
+      - Constitution
+    skill_amount: 2
+    skill_list:
+      - Acrobatics        (Dex)
+      - Animal Handling   (Wis)
+      - Athletics         (Str)
+      - History           (Int)
+      - Insight           (Wis)
+      - Intimidation      (Cha)
+      - Perception        (Wis)
+      - Survival          (Wis)
+    equipment_list_a:
+      - chain mail
+      - a martial weapon and a shield
+      - a light crossbow and 20 bolts
+      - a dungeoneer's pack
+    equipment_list_b:
+      - Leather armor, a longbow, and 20 arrows
+      - two martial weapons
+      - two handaxes
+      - an explorer's pack
+    starting_techniques: Fighting Style, Second Wind
