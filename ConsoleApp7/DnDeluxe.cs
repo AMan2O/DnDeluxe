@@ -130,11 +130,7 @@ if (storeanswer == 1) // character StatManager in proper
 
             Character.Speed = GetInt("How fast can they move in a turn? |");
 
-           
-
-            Console.WriteLine(bot + "What should their Armor Class be? |");
-
-            Character.ArmorClass = GetInt("");
+        
         }
 
         Console.WriteLine(bot + "Now, what is this character's driving goal or dream? it's useful to have on hand. |");
